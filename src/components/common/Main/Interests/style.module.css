@@ -1,0 +1,108 @@
+.interests {
+    font-family: Brandon, sans-serif;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.card {
+    position: relative;
+    margin: 20px 0;
+    width: 30%;
+    overflow: hidden;
+    height: 200px;
+}
+
+.card .face {
+    height: 200px;
+    transition: 0.5s;
+}
+
+.face1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(0px);
+}
+
+.card .face.face1 .content {
+    transition: 0.5s;
+}
+
+.card .face.face1.coding {
+    background: url("/asset/image/coding.jpg");
+    background-size: cover;
+}
+
+.card .face.face1.booking {
+    background: url("/asset/image/book.jpg");
+    background-size: cover;
+}
+
+.card .face.face1.travelling {
+    background: url("/asset/image/travelling.jpg");
+    background-size: cover;
+}
+
+.card .face.face1.news {
+    background: url("/asset/image/news.jpg");
+    background-size: cover;
+}
+
+.card .face.face1.game {
+    background: url("/asset/image/gamming.jpg");
+    background-size: cover;
+}
+
+.card .face.face1.music {
+    background: url("/asset/image/music.jpg");
+    background-size: cover;
+}
+
+.card .face.face1 img {
+    width: 130px;
+    height: 130px;
+    transform: scale(0.8);
+}
+
+.card .face.face1 h3 {
+    text-align: center;
+}
+
+.card:hover .face.face1 {
+    transform: translateY(-200px);
+}
+
+.card:hover .face.face1 .content {
+    transform: scale(1.2);
+}
+
+.card .face.face2 {
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    transform: translateY(-100px);
+}
+
+.card:hover .face.face2 {
+    transform: translateY(-200px);
+    transition: 0.6s;
+}
+
+.card .face.face2 .content p {
+    margin: 0;
+    padding: 0;
+    color: black;
+}

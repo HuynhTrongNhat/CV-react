@@ -1,0 +1,67 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 15px 100px;
+    z-index: 100;
+    background-color: #333;
+}
+
+header.sticky {
+    position: fixed;
+    opacity: 1;
+    padding: 15px 100px;
+    background-color: #333;
+}
+
+header .logo {
+    position: relative;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.6s;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    position: relative;
+    list-style: none;
+    padding: 10px 5px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
+}
+
+header ul li.active {
+    background: #ffcf10;
+}
+
+header ul li:hover {
+    background: #ffcf10;
+}
+
+header ul li a {
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: bold;
+    transition: 0.6s;
+    font-size: 20px;
+}

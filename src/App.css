@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #000;
+    min-height: 200vh;
+    overflow-x: hidden;
+}
+
+section {
+    padding: 78px 0 0 0;
+}
+
+h3 {
+    color: #fff;
+}
+
+a {
+    outline: none;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    padding: 40px 100px;
+}
+
+.title {
+    width: max-content;
+    font-family: Poppins, sans-serif;
+    margin-bottom: 10px;
+    position: relative;
+    height: auto;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: line-through;
+    color: #ffcf10;
+}
+
+
+/* .animation {
+    animation: changecolor 6s ease-in-out;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+.animation::after {
+    content: "";
+    bottom: 0;
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background-color: #ffcf10;
+    transform-origin: left;
+    transition: 0.5s;
+    transform: scaleX(1);
+    animation: loading 4s ease-in-out;
+    animation-fill-mode: backwards;
+    animation-iteration-count: 1;
+}
+
+@keyframes loading {
+    0% {
+        left: 0;
+        right: auto;
+        width: 0;
+    }
+    35% {
+        width: 100%;
+    }
+    50% {
+        width: 100%;
+    }
+    100% {
+        width: 0;
+        animation-direction: reverse;
+        right: 0;
+        left: auto;
+        opacity: 1;
+    }
+}
+
+@keyframes changecolor {
+    100% {
+        color: #fff;
+    }
+}
+
+@keyframes changecoloryellow {
+    0% {
+        color: #000;
+    }
+    100% {
+        color: #ffcf10;
+    }
+} */

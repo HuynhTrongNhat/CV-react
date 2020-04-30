@@ -1,0 +1,112 @@
+.aboutMe {
+    color: #fff;
+    font-family: Brandon, sans-serif;
+}
+
+.aboutMeContent {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    padding-left: 30px;
+    margin-bottom: 15px;
+}
+
+.aboutMeContent .aboutMeContentText {
+    margin: 10px;
+    position: relative;
+}
+
+.containerButton {
+    text-align: right;
+    align-items: center;
+}
+
+.downloadButton {
+    border: 2px solid #00bfff;
+    border-radius: 30px;
+    background: #000;
+    padding: 5px 15px;
+    font-size: 20px;
+    outline: none;
+    width: 200px;
+    position: relative;
+    color: #fff;
+}
+
+
+/* .animation.button-animate::after {
+    border-radius: 30px;
+    background: linear-gradient(to right, #00bfff, #3f51b5);
+}
+*/
+
+.downloadButton:hover {
+    background: #00bfff;
+    font-weight: bold;
+}
+
+.sub {
+    font-size: 20px;
+    color: #fff;
+}
+
+.skillName {
+    margin: 20px 0;
+}
+
+.skillTitle {
+    font-weight: bold;
+    color: #00bfff;
+}
+
+.skillProgress {
+    width: 100%;
+    height: 30px;
+    border-radius: 40px;
+    background: white;
+    margin: 10px 0;
+}
+
+.skillProgress .skillProgressHave {
+    max-width: 55%;
+    height: 100%;
+    background: linear-gradient(to right, #00bfff, #3f51b5);
+    border-radius: 20px;
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: bold;
+    animation: load 3s ease-in;
+    animation-iteration-count: 1;
+}
+
+.skillProgressHave.stylesheet {
+    max-width: 60%;
+}
+
+.skillProgressHave.javascript {
+    max-width: 35%;
+}
+
+.skillProgressHave.java {
+    max-width: 50%;
+}
+
+.skillDescription {
+    font-weight: bold;
+}
+
+
+/* .animation.loading::after {
+    background-color: #fff;
+} */
+
+@keyframes load {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
